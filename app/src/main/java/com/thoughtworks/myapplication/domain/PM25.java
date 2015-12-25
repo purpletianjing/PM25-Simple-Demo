@@ -9,6 +9,9 @@ public class PM25 {
     @SerializedName("quality")
     private String quality;
 
+    @SerializedName("pm2_5")
+    private String pm2_5;
+
     public String getPositionName() {
         return positionName;
     }
@@ -23,5 +26,9 @@ public class PM25 {
 
     public void setQuality(String quality) {
         this.quality = quality;
+    }
+
+    public String getPm2_5() {
+        return pm2_5;
     }
 }
